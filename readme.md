@@ -1,7 +1,7 @@
-<p a>
-  <img src="https://dummyimage.com/80x80/000/ffffff&text=MV" alt="Miskve Logo" width="50" style="vertical-align: middle; border-radius: 8px;"/>
-  <span style="font-size: 1.8em; font-weight: 600; margin-left: 12px; vertical-align: middle;">Miskve</span>
-</p>
+<div>
+  <img src="frontend/public/logo_transparent.svg" alt="Miskve Logo" width="50" style="vertical-align: middle; border-radius: 8px;"/>
+  <span style="font-size: 2em; font-weight: 700; margin-left: 12px; vertical-align: middle;">Miskve</span>
+</div>
 
 *Inspired by the simplicity of nature and human intuition, Miskve is a Web3 loyalty app that rewards coffee lovers for their habits...*
 
@@ -148,8 +148,8 @@ stateDiagram-v2
 
 ## Quick Start
    ```bash
-    git clone https://github.com/kullaniciadi/proje-adi.git
-    cd proje-adi
+    git clone https://github.com/kullaniciadi/proje-adi.git](https://github.com/aysenur-aydin/Miskve.git
+    cd frontend
     pnpm install
     pnpm run dev
   ```
