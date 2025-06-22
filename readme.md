@@ -148,7 +148,7 @@ stateDiagram-v2
 
 ## Quick Start
    ```bash
-    git clone https://github.com/kullaniciadi/proje-adi.git](https://github.com/aysenur-aydin/Miskve.git
+    git clone https://github.com/aysenur-aydin/Miskve.git
     cd frontend
     pnpm install
     pnpm run dev
