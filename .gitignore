@@ -24,6 +24,17 @@ contracts/node_modules/
 contracts/.env
 contracts/.env.local
 
+# === Backend (Rust) ===
+backend/target/
+
+# === Contracts (Rust) ===
+contracts/soroban_loyalty/target/
+contracts/soroban_loyalty/.cargo/
+contracts/soroban_loyalty/node_modules/
+contracts/soroban_loyalty/.env
+contracts/soroban_loyalty/.env.local
+contracts/soroban_loyalty/.env.*.local
+
 # === Logs and system files ===
 *.log
 npm-debug.log*
