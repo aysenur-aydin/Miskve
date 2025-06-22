@@ -97,39 +97,9 @@ flowchart TD
 
 
   ```
-### 4. Data Model – Class Structure
 
-```mermaid
-classDiagram
-    class User {
-        +id: String
-        +publicKey: String
-        +tokenBalance: Number
-        +getBalance()
-        +makeTransfer()
-    }
-
-    class Merchant {
-        +id: String
-        +name: String
-        +tokenRate: Number
-        +generateQR()
-    }
-
-    class Transaction {
-        +id: String
-        +date: DateTime
-        +amount: Number
-        +status: String
-    }
-
-    User "1" --> "n" Transaction
-    Merchant "1" --> "n" Transaction
-
-
-  ```
  
-### 5. General State
+### 4. General State
 
   ```mermaid
 stateDiagram-v2
